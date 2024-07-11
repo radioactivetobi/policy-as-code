@@ -15,11 +15,11 @@ codescanning:
     #high: 30
     #all: 90
 
-dependencies:
-  conditions:
-    imports:
+#dependencies:
+  #conditions:
+    #imports:
       # Import text list of Typosquatting dependencies
-      names: ./policies/typosquatting.txt
+      #names: ./policies/typosquatting.txt
 
 licensing:
   # Licensing does not have `remediate` block as there are no dates associated 
