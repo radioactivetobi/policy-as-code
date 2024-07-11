@@ -9,17 +9,17 @@ codescanning:
     all: 90
 
 
-dependabot:
-  remediate:
+#dependabot:
+  #remediate:
     # The team have 30 days before this starts crashing workflows / builds
-    high: 30
-    all: 90
+    #high: 30
+    #all: 90
 
 dependencies:
   conditions:
     imports:
       # Import text list of Typosquatting dependencies
-      names: typosquatting.txt
+      names: ./policies/typosquatting.txt
 
 licensing:
   # Licensing does not have `remediate` block as there are no dates associated 
