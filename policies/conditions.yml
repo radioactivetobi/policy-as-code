@@ -14,6 +14,15 @@ licensing:
       - Other
       - NA
 
+# Dependency Security Alters
+dependabot:
+  level: critical
+  remediate:
+  # The team have 30 days before this starts crashing workflows / builds
+  high: 30
+  all: 90
+  
+  
 secretscanning:
   level: all
   remediate:
